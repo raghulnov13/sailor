@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+
+}
+.container {
+    width: 1120px;
+    margin: auto;
+}
+
+/* about */
+
+.about{
+    padding: 60px 0;
+}
+.about-flex{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.about-head{
+    
+    
+}
+.about-head h2{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    
+
+}
+.about-head h3{
+    font-weight: 500;
+    line-height: 32px;
+    font-size: 24px;
+    width: 75%;
+
+}
+.about-content{
+    width: 80%;
+    
+}
+.about-content p{
+
+}
+.about-content ul{
+    list-style: none;
+
+}
+.about-content ul li{
+    padding: 10px 0 0 28px;
+
+}
+
+/* client */
+.client{
+    background-color: #f8f9fa;
+    padding: 15px 0;
+    text-align: center;
+}
+.client-flex{
+    display: flex;
+}
+
+.client-image img{
+    max-width: 45%;
+    transition: all 0.4s ease-in-out;
+    display: inline-block;
+    padding: 15px 0;
+    filter: grayscale(100);
+
+}
+.client-image img:hover .client-image{
+    color: aqua;
+    
+} 
+
+/* services */
+.services{
+
+}
+.services-flex{
+    display: flex;
+    flex-wrap: wrap
+
+}
+.services-box{
+    display: flex;
+    width: 50%;
+
+}
+.services-icon{
+    margin-bottom: 20px;
+    padding: 30px;
+    border-radius: 6px;
+}
+.services-icon i{
+    color: #d9232d;
+    font-size: 40px;
+}
+    
+.services-text{
+
+}
+.services-text h4{
+    /* margin-left: 70px; */
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+
+}
+.services-text p{
+    /* margin-left: 70px; */
+    line-height: 24px;
+    font-size: 14px;
+}
